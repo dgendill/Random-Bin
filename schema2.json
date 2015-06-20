@@ -1,0 +1,49 @@
+{
+    "type" : "object",
+    "properties" : {
+        "message" : {
+            "type" : "string"
+        },
+        "response" : {
+            "type" : "object",
+            "properties" : {
+                "url" : {
+                    "type" : "string",
+                    "format" : "uri",
+                    "required" : true
+                },
+                "user" : {
+                    "type" : "object",
+                    "oneOf" : [{
+                        "$ref" : "#/definitions/user"
+                    }]
+                }
+            },
+            "required" : ["url","path","user"]
+        },
+        "currentUser" : {
+            "type" : "object",
+            "oneOf" : [{
+                "$ref" : "#/definitions/user"
+            }]
+        }
+    },
+    "required" : ["message","response","currentUser"],
+    "definitions" : {
+        "user" : {
+            "type" : "object",
+            "properties" : {
+                "firstname" : {
+                    "type" : "string"
+                },
+                "lastname" : {
+                    "type" : "string"
+                },
+                "lastLogin" : {
+                    "type" : "number"
+                }
+            },
+            "required" : ["firstname","lastname","lastLogin"]
+        }
+    }
+}

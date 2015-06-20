@@ -1,0 +1,17 @@
+{
+    "message" : "Url added",
+    "currentUser" : {
+        "firstname" : "Mike",
+        "lastname" : "Jenson",
+        "lastLogin" : 1566891122
+    },
+    "response" : {
+        "url" : "http://www.test.com",
+        "path" : "/a/path/somewhere",
+        "user" : {
+            "firstname" : "Mike",
+            "lastname" : "Jenson",
+            "lastLogin" : 1566891122
+        }
+    }
+}
