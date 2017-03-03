@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+<html></html>
+    ]]></content>
+
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>html!</tabTrigger>
+
+    <!-- Which files to active this snippet in -->
+    <scope>text.html</scope>
+
+    <!-- Optional: Description to show in the menu -->
+    <description>Insert HTML tags</description>
+</snippet>

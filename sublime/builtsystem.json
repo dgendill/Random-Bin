@@ -1,0 +1,9 @@
+{
+    "build_systems":
+    [
+        {
+            "name": "development build system",
+            "shell_cmd": "start cmd /k \"cd $project_path && npm run task\""
+        }
+    ]
+}

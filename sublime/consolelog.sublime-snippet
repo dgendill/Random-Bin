@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[function() {
+
+    console.log('${1:PlaceholderOne}')
+
+]]></content>
+
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>consolelog!</tabTrigger>
+
+    <scope>source.js</scope>
+
+    <!-- Optional: Description to show in the menu -->
+    <description>Insert a function that logs</description>
+</snippet>

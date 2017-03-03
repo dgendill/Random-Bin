@@ -1,0 +1,14 @@
+CACHE MANIFEST
+# 2014-03-20:v2.4
+
+CACHE:
+/css/compiled.php
+/images/bg.jpg
+
+# Require the user to be online.
+# NETWORK:
+# *
+
+# offline.html will be served in place of all other .html files
+# FALLBACK:
+# /index.html /offline.html
